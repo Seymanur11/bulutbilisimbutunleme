@@ -1,0 +1,9 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+spec:
+  template:
+    spec:
+      containers:
+      - name: go-app
+        image: nokkie/go-app:1.2
