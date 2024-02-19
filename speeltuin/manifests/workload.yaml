@@ -93,7 +93,7 @@ metadata:
     name: go-app-ingress
 spec:
   rules:
-  - host: "go-app.digitalinfo.nl"
+  - host: "go-app.seymanur.test"
     http:
       paths:
       - pathType: Prefix
